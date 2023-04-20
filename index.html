@@ -7,12 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>chrome extensions of translator</title>
   <style>
+    body {
+      width: 300px;
+      padding: 12px;
+    }
+    input {
+      margin-bottom: 12px;
+    }
+
     .result {
       color: #999;
     }
 
     .success {
-      color: #0f0;
+      color: #00f;
+      font-size: 18px;
     }
 
     .error {
@@ -27,8 +36,6 @@
   <input id="key" type="text" placeholder="Please input your X-RapidAPI-Key first.">
   <input id="text" type="text" value="hello my friend" placeholder="Please input text to translate">
   <input id="submit" type="button" value="Translate Now!">
-  <br>
-  <br>
   <div><strong class="result" id="result">To be translate</strong></div>
   <script src="index.js"></script>
 </body>
