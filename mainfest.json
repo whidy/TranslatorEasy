@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Whidy Translator",
+  "version": "1.0.0",
+  "action": {
+    "default_icon": {
+      "16": "images/16.png",
+      "24": "images/24.png",
+      "32": "images/32.png"
+    },
+    "default_title": "Whidy Translator",
+    "default_popup": "index.html"
+  },
+  "default_locale": "en",
+  "description": "This is a translator developed by Whidy use rapidAPI.",
+  "icons": {
+    "16": "images/16.png",
+    "32": "images/32.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "author": "whidy@whidy.net"
+}
